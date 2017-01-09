@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<p><h1>This is the story about Sarah Ruth</h1></p>
-		<div><img src="images/sacco-chilla.jpg"></div>
-		<p><h3><em>Sarah Ruth lives with two cute furries, Sacco and Chilla. She also lives with her partner and is a caretaker to her uncle. </em></h3></p>
+		<img id="kitties" src="images/sacco-chilla.jpg">
+		<p><h3><em>Sarah Ruth lives with two cute furries, Sacco and Chilla.</em><br>Sarah Ruth also lives with her partner and is a caretaker to her uncle.</h3></p>
 	</body>
 </html>
