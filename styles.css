@@ -1,19 +1,18 @@
 body{
-	background: transparent -webkit-linear-gradient(black, white);
-	background-attachment: fixed;
+	background: transparent -webkit-linear-gradient(black, white) fixed;
 	width: auto;
 	height: 100%;
 }
 
 h1 {
-	color: #a91190;
+	color: #ffffff;
 	font-family:"Arial Black", Arial, sans-serif;
-	text-shadow: 10px 10px rgba(255, 0, 0, 0.55);
+	text-shadow: 10px 10px rgb(255, 255, 255);
 	text-align: center;
 	margin: 10px 10px;
 }
 #aboutMe {
-	color: #41457a; 
+	color: #ffffff;
 	font-family:"Times New Roman", Times, serif;
 	margin: 20px auto;
 	text-align: center;
@@ -30,7 +29,6 @@ h1 {
 	margin: 20px 10px;
 	float: right;
 	position: relative;
-	-webkit-filter: blur(5px);
 }
 #sarahruth-ballon
 	{
@@ -38,9 +36,9 @@ h1 {
 	height: 45%;
 	margin: 20px 10px;
 	position: relative;
-	-webkit-filter: blur(5px);
 }
 
-#sarahruth-ballon:hover, #sacco-chilla:hover{
-	-webkit-filter: blur(0);
+#sarahruth-ballon, #sacco-chilla{
+	padding: 3px;
+	border: 1px solid white;
 }
