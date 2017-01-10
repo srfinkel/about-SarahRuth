@@ -1,16 +1,39 @@
 h1 {
-	color:darkgrey; font-family:"Arial Black"
+	color: #a91190;
+	font-family:"Arial Black", Arial, sans-serif;
+	text-shadow: 10px 10px rgba(255, 0, 0, 0.55);
+	text-align: center;
+	margin: 10px 10px;
 }
-h3 {
-	color:lightcoral; font-family:"Times New Roman"
+#aboutMe {
+	color: #41457a; 
+	font-family:"Times New Roman", Times, serif;
+	margin: 20px auto;
+	text-align: center;
+	width: 40%;
+}
+#aboutMe:hover{
+	text-transform: uppercase;
+	font-size: 16px;
 }
 #sacco-chilla
 	{
-	width: 50%;
-	height: 50%
+	width: 47%;
+	height: 45%;
+	margin: 20px auto;
+	float: right;
+	position: relative;
+	-webkit-filter: blur(5px);
 }
 #sarahruth-ballon
 	{
-	width: 50%;
-	height: 50%;
+	width: 47%;
+	height: 45%;
+	margin: 20px auto;
+	position: relative;
+	-webkit-filter: blur(5px);
+}
+
+#sarahruth-ballon:hover, #sacco-chilla:hover{
+	-webkit-filter: blur(0);
 }
